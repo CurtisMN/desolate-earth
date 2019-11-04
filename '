@@ -1,0 +1,93 @@
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+
+const showsTableContainer = {
+    backgroundColor: "rgba(0,0,0,.8)",
+    border: "2px solid #ddd",
+    borderRadius: "2px"
+};
+
+const tableRow = {
+    display: "flex",
+    justifyContent: "space-around",
+    borderTop: "1px solid white",
+    borderBottom: "1px solid white"
+};
+const tableRowHeader = {
+	fontSize: '20px',
+	paddingVertical: '10px',
+};
+const tableItem = {
+	paddingLeft: '10px',
+    flex: 1,
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "flex-start",
+    alignContent: "flex-start",
+    color: "white",
+    textAlign: "left"
+};
+
+export default class ShowsTable extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            shows: [
+                {
+                    name: "Blackthorne",
+                    date: "2/13/2020",
+                    time: "6:00pm",
+                    price: "$10"
+                },
+                {
+                    name: "Whiskey Dicks",
+                    date: "3/3/2020",
+                    time: "7:00pm",
+                    price: "$5"
+                },
+                {
+                    name: "Blackthorne",
+                    date: "5/25/2020",
+                    time: "6:00pm",
+                    price: "FREE"
+                },
+                {
+                    name: "MSSU",
+                    date: "8/22/2020",
+                    time: "4:00pm",
+                    price: "$10"
+                }
+            ]
+        };
+    }
+
+    render() {
+        return (
+            <div
+                style={showsTableContainer}
+                className="row justify-content-center shows-table"
+            >
+                <div style={{...tableRow,...tableRowHeader}}>
+                    <p style={tableItem}>VENUE</p>
+                    <p style={tableItem}>DATE</p>
+                    <p style={tableItem}>TIME</p>
+                    <p style={tableItem}>COVER</p>
+                </div>
+                {this.state.shows.map(show => {
+                    return (
+                        <div style={tableRow}>
+                            <p style={tableItem}>{show.name}</p>
+                            <p style={tableItem}>{show.date}</p>
+                            <p style={tableItem}>{show.time}</p>
+                            <p style={tableItem}>{show.price}</p>
+                        </div>
+                    );
+                })}
+            </div>
+        );
+    }
+}
+
+if (document.getElementById("shows-table")) {
+    ReactDOM.render(<ShowsTable />, document.getElementById("shows-table"));
+}

@@ -1,0 +1,28 @@
+{
+    "shows": [
+        {
+            "name": "Blackthorne",
+            "date": "2/13/2020",
+            "time": "6:00pm",
+            "price": "$10"
+        },
+        {
+            "name": "Whiskey Dicks",
+            "date": "3/3/2020",
+            "time": "7:00pm",
+            "price": "$5"
+        },
+        {
+            "name": "Blackthorne",
+            "date": "5/25/2020",
+            "time": "6:00pm",
+            "price": "FREE"
+        },
+        {
+            "name": "MSSU",
+            "date": "8/22/2020",
+            "time": "4:00pm",
+            "price": "$10"
+        }
+    ]
+}

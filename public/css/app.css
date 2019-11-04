@@ -1,0 +1,88 @@
+html,
+body {
+  background-color: #0f0f0f;
+  color: #ddd;
+  font-family: "proxima-nova";
+  background-image: url(/images/bg.png?11e10a98a67856bd8d32bfe494c98715);
+  background-position: top center;
+  background-size: cover;
+  background-size: cover;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  -webkit-box-align: start;
+          align-items: flex-start;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  padding-top: 40px;
+  letter-spacing: 0.5rem;
+  font-size: 64px;
+}
+
+.links {
+  padding-top: 10px;
+}
+
+.links > a {
+  color: #ddd;
+  padding: 0 25px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.invalid-link {
+  color: #555 !important;
+}
+
+.shows-table-row {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: auto;
+}
+
+.page-title {
+  font-size: 26px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#bio {
+  margin: auto;
+  width: 50vw;
+  font-size: 26px;
+  text-align: justify;
+  line-height: 2.8rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  padding: 20px;
+}
+
