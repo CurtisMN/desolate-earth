@@ -20,7 +20,7 @@
                 <div class="links">
                   <a href="/">HOME</a>
                   <a href="/shows">SHOWS</a>
-                  <a href="/music" class="invalid-link">MUSIC</a>
+                  <a href="/music">MUSIC</a>
                   <a href="/contact" class="invalid-link">CONTACT</a>
               </div>
             @show

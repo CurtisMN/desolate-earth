@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/shows', function () {
     return view('shows');
 });
+
+Route::get('/music', function () {
+    return view('music');
+});

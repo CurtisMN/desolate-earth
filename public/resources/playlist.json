@@ -1,0 +1,40 @@
+{
+    "playlist": [
+        {
+            "url": "resources/Songs/Leviathan.mp3",
+            "cover": "resources/cover.jpg",
+            "title": "Leviathan",
+            "artist": ["Desolate Earth"]
+        },
+        {
+            "url": "resources/Songs/Within.mp3",
+            "cover": "resources/cover.jpg",
+            "title": "Within",
+            "artist": ["Desolate Earth"]
+        },
+        {
+            "url": "resources/Songs/Arachnaphobia.mp3",
+            "cover": "resources/cover.jpg",
+            "title": "Arachnaphobia",
+            "artist": ["Desolate Earth"]
+        },
+        {
+            "url": "resources/Songs/Vulture.mp3",
+            "cover": "resources/cover.jpg",
+            "title": "Vulture",
+            "artist": ["Desolate Earth"]
+        },
+        {
+            "url": "resources/Songs/God of Destruction.mp3",
+            "cover": "resources/cover.jpg",
+            "title": "God of Destruction",
+            "artist": ["Desolate Earth"]
+        },
+        {
+            "url": "resources/Songs/Calamity.mp3",
+            "cover": "resources/cover.jpg",
+            "title": "Calamity",
+            "artist": ["Desolate Earth"]
+        }
+    ]
+}
