@@ -63,8 +63,8 @@ body {
 
 .page-title {
     font-size: 26px;
-		padding-top: 10px;
-		padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #bio {
     margin: auto;
@@ -75,4 +75,15 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 15px;
     padding: 20px;
+}
+.player .player-control .music-info .title {
+    color: "white" !important;
+}
+
+#epimg {
+    border-radius: 5px;
+    margin-bottom: 60px;
+    max-height: 700px;
+		max-width: 1000px;
+    box-shadow: 0 0 800px 800px rgba(0, 0, 0, 0.2) inset;
 }

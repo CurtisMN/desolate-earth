@@ -21,7 +21,7 @@
                   <a href="/">HOME</a>
                   <a href="/shows">SHOWS</a>
                   <a href="/music">MUSIC</a>
-                  <a href="/contact" class="invalid-link">CONTACT</a>
+                  <a href="/" class="invalid-link">CONTACT</a>
               </div>
             @show
 						<div class="page">

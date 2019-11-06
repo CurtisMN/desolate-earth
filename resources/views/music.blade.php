@@ -7,6 +7,7 @@
 @section('content')
     <p class='page-title'>MUSIC</p>
     <div class="music-table-row">
+      <img id="epimg" src="resources/epimage.png" height="auto" width="90%" />
       <div id="music-table"></div>
     </div>
 @endsection
