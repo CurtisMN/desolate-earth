@@ -6,5 +6,5 @@ public/resources/playlist.json
 To edit shows:
 public/resources/shows.json
 
-To Push Up:
+To throw Up:
 Stage > Commit > Pull > Push
