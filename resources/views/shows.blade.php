@@ -5,7 +5,7 @@
 @section('nav')
 
 @section('content')
-    <p class='page-title'>SHOWS pee</p>
+    <p class='page-title'>SHOW</p>
     <div class="shows-table-row">
       <div id="shows-table"></div>
     </div>
