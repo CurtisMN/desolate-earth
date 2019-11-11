@@ -17,4 +17,4 @@ To edit shows:
 public/resources/shows.json
 
 To push up:
-Stage > Commit > Pull > Push
+Stage -> Commit -> Pull -> Push
